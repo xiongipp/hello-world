@@ -2,19 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('develop-2.0-打开冰箱') {
+        stage('打开冰箱') {
             steps {
-                echo 'Hello World'
+                echo 'develop-2.0-Hello World'
             }
         }
-        stage('develop-2.0-装大象') {
+        stage('装大象') {
             steps {
-                echo 'Hello World'
+                echo 'develop-2.0-Hello World'
             }
         }
-        stage('develop-2.0-关冰箱') {
+        stage('关冰箱') {
             steps {
-                echo 'Hello World'
+                echo 'develop-2.0-Hello World'
             }
         }
     }
